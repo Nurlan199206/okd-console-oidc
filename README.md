@@ -17,7 +17,7 @@ Vanilla OKD Console integration with Keycloak OIDC
 1) ```bash kc.sh start-dev --https-certificate-file=/etc/letsencrypt/live/auth.dev-ops.kz/fullchain.pem --https-certificate-key-file=/etc/letsencrypt/live/auth.dev-ops.kz/privkey.pem --https-port=443```
 
 
-** Add to each master node OIDC settings in /etc/kubernetes/manifests/kube-apiserver.yaml **
+**Add to each master node OIDC settings in /etc/kubernetes/manifests/kube-apiserver.yaml**
 ```
 - --oidc-issuer-url=https://auth.dev-ops.kz/realms/kubernetes
 - --oidc-client-id=kubernetes
