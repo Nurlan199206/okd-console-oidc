@@ -37,6 +37,7 @@ spec:
         - --user-auth-oidc-client-id=kubernetes
         - --user-auth-oidc-client-secret=cQaeSfDbbgMKBDatBnA1SmQglxGo8c8T
         - --base-address=https://console.altyn-i.kz
+        - --branding=openshift
         image: quay.io/openshift/origin-console:4.12
         imagePullPolicy: IfNotPresent
         name: console
