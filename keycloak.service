@@ -4,17 +4,14 @@ After=syslog.target network.target
 
 
 [Service]
-#Environment=LAUNCH_JBOSS_IN_BACKGROUND=1
-#EnvironmentFile=/opt/keycloak/conf/keycloak.conf
-#Environment="KC_HTTPS_CERTIFICATE_FILE=/etc/letsencrypt/live/auth.dev-ops.kz/fullchain.pem"
-#Environment="KC_HTTPS_CERTIFICATE_KEY_FILE=/etc/letsencrypt/live/auth.dev-ops.kz/privkey.pem"
-#Environment=KC_HTTPS_PORT=443
+Environment="KC_HTTPS_CERTIFICATE_FILE=/etc/letsencrypt/live/auth.dev-ops.kz/fullchain.pem"
+Environment="KC_HTTPS_CERTIFICATE_KEY_FILE=/etc/letsencrypt/live/auth.dev-ops.kz/privkey.pem"
+Environment=KC_HTTPS_PORT=443
 User=root
 Group=root
 LimitNOFILE=102642
 PIDFile=/var/run/keycloak/keycloak.pid
-ExecStart=/opt/keycloak/bin/kc.sh start-dev --https-certificate-file=/etc/letsencrypt/live/auth.dev-ops.kz/fullchain.pem --https-certificate-key-file=/etc/letsencrypt/live/auth.dev-ops.kz/privkey.pem --https-port=443
-#ExecStart=/opt/keycloak/bin/kc.sh start-dev
+ExecStart=/opt/keycloak/bin/kc.sh start-dev
 
 #StandardOutput=null
 
