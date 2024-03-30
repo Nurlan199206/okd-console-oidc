@@ -20,14 +20,14 @@ Vanilla OKD Console integration with Keycloak OIDC
 ![image](https://github.com/Nurlan199206/okd-console-oidc/assets/22808731/feaf845d-48d7-4f23-a9d6-368754c7e123)
 
 
-3) Create scopes ```openid``` ```groups``` ```email``` ```profile```
+3) Create scopes for OIDC client ```openid``` ```groups``` ```email``` ```profile```
 ![image](https://github.com/Nurlan199206/okd-console-oidc/assets/22808731/2f75b7e0-c825-4ed8-87f3-466910642167)
 
 
 
 
 
-**Add to each master node OIDC settings in /etc/kubernetes/manifests/kube-apiserver.yaml**
+**Add to each master node OIDC settings in ```/etc/kubernetes/manifests/kube-apiserver.yaml```**
 ```
 - --oidc-issuer-url=https://auth.dev-ops.kz/realms/kubernetes
 - --oidc-client-id=kubernetes
