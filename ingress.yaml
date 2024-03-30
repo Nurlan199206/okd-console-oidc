@@ -1,0 +1,20 @@
+kind: Ingress
+metadata:
+  creationTimestamp: null
+  name: console
+spec:
+  tls:
+  - hosts:
+      - console.altyn-i.kz
+    secretName: bundle
+  rules:
+  - host: console.altyn-i.kz
+    http:
+      paths:
+      - backend:
+          service:
+            name: console
+            port:
+              number: 9000
+        path: /
+        pathType: Prefix
