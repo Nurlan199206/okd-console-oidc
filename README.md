@@ -1,4 +1,6 @@
-Vanilla OKD Console integration with Keycloak OIDC
+OKD/OpenShift Console for vanilla Kubernetes. 
+
+Keycloak OIDC integration.
 
 ## Software version:
 
