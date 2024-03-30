@@ -8,7 +8,7 @@ Vanilla OKD Console integration with Keycloak OIDC
 ```Kubernetes: 1.26.5```
 
 
-```OKD Console image: 4.12```
+```OpenShift console: 4.12 or 4.13```
 
 
 
