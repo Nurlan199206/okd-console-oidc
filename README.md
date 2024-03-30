@@ -45,5 +45,7 @@ Keycloak OIDC integration.
  
 
 
-https://github.com/Nurlan199206/okd-console-oidc/assets/22808731/b01d906f-231b-4fac-8bfd-c69fe9e0651b
+
+https://github.com/Nurlan199206/okd-console-oidc/assets/22808731/de572e43-9071-4594-a2a4-a330f430c018
+
 
