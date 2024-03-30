@@ -35,6 +35,9 @@ Vanilla OKD Console integration with Keycloak OIDC
 - --oidc-username-claim=preferred_username
 ```
 
+4) create user 
+![image](https://github.com/Nurlan199206/okd-console-oidc/assets/22808731/83ffa46a-83a7-4e65-8c0c-6c03a21ab96c)
 
-10) ```kubectl create clusterrolebinding admin --clusterrole=cluster-admin --user https://auth.dev-ops.kz/realms/kubernetes#admin```
+
+5) ```kubectl create clusterrolebinding admin --clusterrole=cluster-admin --user https://auth.dev-ops.kz/realms/kubernetes#admin```
  
