@@ -12,7 +12,7 @@ Vanilla OKD Console integration with Keycloak OIDC
 
 
 
-**Run Keycloak on port 443 with custom domain**
+**Run Keycloak on port 443 with custom domain or setup as systemd service**
 
 1) ```bash kc.sh start-dev --https-certificate-file=/etc/letsencrypt/live/auth.dev-ops.kz/fullchain.pem --https-certificate-key-file=/etc/letsencrypt/live/auth.dev-ops.kz/privkey.pem --https-port=443```
 
