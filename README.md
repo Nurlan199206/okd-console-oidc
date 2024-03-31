@@ -47,7 +47,9 @@ Keycloak OIDC integration.
 5) ```kubectl create clusterrolebinding admin --clusterrole=cluster-admin --user https://auth.dev-ops.kz/realms/kubernetes#admin```
  
 
+https://github.com/Nurlan199206/okd-console-oidc/assets/22808731/5aa82bb3-21a9-4b50-b541-31d3d038ec35
 
-https://github.com/Nurlan199206/okd-console-oidc/assets/22808731/de572e43-9071-4594-a2a4-a330f430c018
+
+
 
 
