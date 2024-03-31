@@ -2,6 +2,9 @@ OKD/OpenShift Console for vanilla Kubernetes.
 
 Keycloak OIDC integration.
 
+![image](https://github.com/Nurlan199206/okd-console-oidc/assets/22808731/36659ccb-eda7-44d0-96f3-fad5634a00cd)
+
+
 ## Software version:
 
 ```Keycloak: 23.0.7```
