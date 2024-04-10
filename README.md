@@ -57,11 +57,11 @@ if u get error: No subject alternative names matching IP address
 follow this instruction: https://gist.github.com/Nurlan199206/a1aa9d4463aec21406e23885c9e171ea
 
 
-![image](https://github.com/Nurlan199206/okd-console-oidc/assets/22808731/56b51452-ce78-4286-a913-d0b428272785)
-
+![image](https://github.com/Nurlan199206/okd-console-oidc/assets/22808731/0f0996a6-2e4b-4fd1-a659-b8ff86d9c5ad)
 
 
 ![image](https://github.com/Nurlan199206/okd-console-oidc/assets/22808731/6727d351-5115-4335-8acc-6d9da897b8b6)
 
 
+![image](https://github.com/Nurlan199206/okd-console-oidc/assets/22808731/5749b431-1742-4dd1-b54d-e3eaac7ae1e2)
 
