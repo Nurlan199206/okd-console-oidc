@@ -50,6 +50,18 @@ Keycloak OIDC integration.
 https://github.com/Nurlan199206/okd-console-oidc/assets/22808731/5aa82bb3-21a9-4b50-b541-31d3d038ec35
 
 
+LDAP config
+
+if u get error: No subject alternative names matching IP address
+
+follow this instruction: https://gist.github.com/Nurlan199206/a1aa9d4463aec21406e23885c9e171ea
+
+
+![image](https://github.com/Nurlan199206/okd-console-oidc/assets/22808731/56b51452-ce78-4286-a913-d0b428272785)
+
+
+
+![image](https://github.com/Nurlan199206/okd-console-oidc/assets/22808731/6727d351-5115-4335-8acc-6d9da897b8b6)
 
 
 
